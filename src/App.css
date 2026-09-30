@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.lista {
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.lista h2 {
+  margin-bottom: 20px;
+}
+
+.entrada {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.entrada input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.entrada button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.entrada button:hover {
+  background-color: #0056b3;
+}
+
+.lista ul {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.lista li {
+  margin: 10px 0;
+}
